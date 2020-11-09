@@ -1,7 +1,8 @@
 Feature: Deviantart image search
   Scenario: Verify if deviantart find my acount images
-    Given I launch Chrome browser and open deviantart.com page
-    And I login in my account
-    Then I make a search from browser
-    And I check the list with images
-    Then I close the browser
+    Given Launch Chrome browser
+    And Open deviantart.com login page
+    Then Login in my account
+    And Make a search from browser
+    Then Check the list with images
+    And Close the browser
