@@ -1,0 +1,538 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.515Z",
+        "line": 2,
+        "name": "Verify if deviantart find my acount images",
+        "description": "",
+        "id": "deviantart-image-search;verify-if-deviantart-find-my-acount-images",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open deviantart.com login page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Login in my account",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 493900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Make a search from browser",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Check the list with images",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 494700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Deviantart image search",
+    "description": "",
+    "id": "deviantart-image-search",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/deviantart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.612Z",
+        "line": 2,
+        "name": "Verify that the button \"Quick View\" works correct",
+        "description": "",
+        "id": "tic-246;verify-that-the-button-\"quick-view\"-works-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser TIC-246",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494500,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open loving-hermann.com page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Open clothing menu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click on product quick view",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Close the browser TIC-246",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-246",
+    "description": "",
+    "id": "tic-246",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/tic_246.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.625Z",
+        "line": 2,
+        "name": "Verify that the button \"Find\" works as expected",
+        "description": "",
+        "id": "tic-248;verify-that-the-button-\"find\"-works-as-expected",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser TIC-248",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open loving-hermann.com page TIC-248",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Enter name of the product",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Press on \"Find\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 991100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Close the browser TIC-248",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-248",
+    "description": "",
+    "id": "tic-248",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/tic_248.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.643Z",
+        "line": 2,
+        "name": "Verify that card window work correctly",
+        "description": "",
+        "id": "tic-250;verify-that-card-window-work-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser TIC-250",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 992000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open loving-hermann.com page TIC-250",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Open clothing menu TIC-250",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Press on \"ADD TO CARD\" button multiple times",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Close the browser TIC-250",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-250",
+    "description": "",
+    "id": "tic-250",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/tic_250.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.666Z",
+        "line": 2,
+        "name": "Verify that functionality \"Send a review\" works as expected",
+        "description": "",
+        "id": "tic-258;verify-that-functionality-\"send-a-review\"-works-as-expected",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser TIC-258",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open loving-hermann.com page TIC-258",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Open clothing menu TIC-258",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click on product quick view TIC-258",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Press on REVIEW button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter name, email and review",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Press on SEND button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Close the browser TIC-258",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-258",
+    "description": "",
+    "id": "tic-258",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/tic_258.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.686Z",
+        "line": 2,
+        "name": "Verify that sign up panel verify if passwords coincide",
+        "description": "",
+        "id": "tic-260;verify-that-sign-up-panel-verify-if-passwords-coincide",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser TIC-260",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494800,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open loving-hermann.com page TIC-260",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Press on ”Sign Up” button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter name, password and confirm password",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Press on SIGN UP button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the browser TIC-260",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-260",
+    "description": "",
+    "id": "tic-260",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/tic_260.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T15:00:19.703Z",
+        "line": 2,
+        "name": "Verify that functionality \"Contacts\" works as expected",
+        "description": "",
+        "id": "tic-262;verify-that-functionality-\"contacts\"-works-as-expected",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Launch Chrome browser TIC-262",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1984000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Open loving-hermann.com page TIC-262",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Press on ”Contacts” button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 495100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter name, email, subject and message on Contact Form",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Press on SEND button TIC-262",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the browser TIC-262",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-262",
+    "description": "",
+    "id": "tic-262",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/tic_262.feature",
+    "tags": []
+  }
+]

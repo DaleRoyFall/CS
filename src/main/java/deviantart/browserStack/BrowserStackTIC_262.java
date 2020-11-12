@@ -1,30 +1,51 @@
-package deviantart;
+package deviantart.browserStack;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class TIC_262 {
-    private WebDriver driver;
+import java.net.MalformedURLException;
+import java.net.URL;
 
-    @Given("Launch Chrome browser TIC-262")
-    public void launch_chrome_browser() {
-        System.setProperty("webdriver.Chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
+public class BrowserStackTIC_262 {
+    public static final String USERNAME = "daleroyfall1";
+    public static final String AUTOMATE_KEY = "xTof8xDa94yi5LifPNqP";
+    public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+    private static WebDriver driver;
 
-        driver = new ChromeDriver();
+    public static void main(String[] args) throws Exception {
+        launch_chrome_browser();
+        open_loving_hermann_com_login_page();
+        press_on_contacts_button();
+        enter_name_password_and_confirm_password();
+        press_on_SIGN_UP_button();
+        close_the_browser();
     }
 
-    @And("Open loving-hermann.com page TIC-262")
-    public void open_loving_hermann_com_login_page() {
+    public static void launch_chrome_browser() throws MalformedURLException {
+        DesiredCapabilities caps = new DesiredCapabilities();
+
+        caps.setCapability("os", "Windows");
+        caps.setCapability("os_version", "10");
+        caps.setCapability("browser", "Chrome");
+        caps.setCapability("browser_version", "80");
+
+        caps.setCapability("name", "TIC-262");
+
+        System.setProperty("webdriver.Chrome.driver", System.getProperty("user.dir") + "/chromedriver.exe");
+
+        driver = new RemoteWebDriver(new URL(URL), caps);
+    }
+
+    public static void open_loving_hermann_com_login_page() {
         driver.get("https://loving-hermann-e2094b.netlify.app/index.html#");
     }
 
-    @Then("Press on ”Contacts” button")
-    public void press_on_contacts_button() {
+    public static void press_on_contacts_button() {
         WebElement singUpButton = driver.findElement(By.xpath("//*[@id=\"bs-example-navbar-collapse-1\"]/ul/li[5]/a"));
         singUpButton.click();
         try {
@@ -34,8 +55,7 @@ public class TIC_262 {
         }
     }
 
-    @Given("Enter name, email, subject and message on Contact Form")
-    public void enter_name_password_and_confirm_password() {
+    public static void enter_name_password_and_confirm_password() {
         WebElement nameInput = driver.findElement(By.xpath("/html/body/div[9]/div/div/div[1]/div[2]/form/div[1]/input"));
         nameInput.sendKeys("DaleRoyFall");
         WebElement emailInput = driver.findElement(By.xpath("/html/body/div[9]/div/div/div[1]/div[2]/form/div[2]/input"));
@@ -51,8 +71,7 @@ public class TIC_262 {
         }
     }
 
-    @And("Press on SEND button TIC-262")
-    public void press_on_SIGN_UP_button() {
+    public static void press_on_SIGN_UP_button() {
         WebElement sendButton = driver.findElement(By.xpath("/html/body/div[9]/div/div/div[1]/div[2]/form/input"));
         sendButton.click();
         try {
@@ -62,8 +81,8 @@ public class TIC_262 {
         }
     }
 
-    @Then("Close the browser TIC-262")
-    public void close_the_browser() {
-        driver.close();
+
+    public static void close_the_browser() {
+        driver.quit();
     }
 }
